@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Book Hakeem Kushimo for multi-camera livestreaming, event recording, and live graphics in Providence and across the Northeast.">
+    <title>Broadcasting | Hakeem Kushimo</title>
+    <link rel="stylesheet" href="styles.css?v=20261118">
+    <style>
+      .site-nav__links {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      .site-nav__links [aria-current="page"] { color: var(--accent); }
+      .broadcast-intro {
+        padding-block: clamp(48px, 9vw, 116px);
+        border-bottom: 1px solid var(--line);
+        background: var(--surface);
+      }
+      .broadcast-intro h1 {
+        font-size: clamp(2.25rem, 9vw, 6rem);
+        letter-spacing: -.055em;
+      }
+      .broadcast-intro .hero__summary { max-width: 58ch; }
+      .broadcast-details {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+        gap: 16px;
+        padding-block: clamp(32px, 6vw, 72px);
+      }
+      .broadcast-details section {
+        padding: clamp(20px, 4vw, 36px);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+      }
+      .broadcast-details h2 { margin-bottom: 12px; font-size: 1.5rem; }
+      .broadcast-details p { color: var(--muted); line-height: 1.65; }
+      .broadcast-contact {
+        border-top: 1px solid var(--line);
+        padding-block: 32px 56px;
+      }
+      .broadcast-contact p { margin-block: 10px 20px; color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="page-shell site-nav" aria-label="Main navigation">
+        <a class="wordmark" href="index.html" aria-label="Hakeem Kushimo, home">HK<span>.</span></a>
+        <div class="site-nav__links">
+          <a href="index.html#experience">Experience</a>
+          <a href="index.html#shows">Portfolio</a>
+          <a href="broadcasting.html" aria-current="page">Broadcasting</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="broadcast-intro" aria-labelledby="broadcasting-heading">
+        <div class="page-shell">
+          <p class="hero__location">Providence, RI / Northeast</p>
+          <h1 id="broadcasting-heading">Broadcasting</h1>
+          <p class="hero__headline">Multi-camera livestreaming and event recording</p>
+          <p class="hero__summary">I bring a portable V1 and graphics setup to corporate meetings, conferences, and hybrid events. I can direct your live show, switch cameras and presentation feeds, and deliver a livestream, a recording, or both.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="mailto:hakeem@keemthedesigner.xyz?subject=Broadcasting%20inquiry">Check availability</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="page-shell broadcast-details">
+        <section aria-labelledby="camera-heading">
+          <h2 id="camera-heading">Multi-camera production</h2>
+          <p>Two remotely operated 4K PTZ cameras with optical zoom capture presenters, panels, and wide room shots. I cut between camera angles and presentation feeds on a multi-input HD video switcher.</p>
+        </section>
+        <section aria-labelledby="stream-heading">
+          <h2 id="stream-heading">Livestreaming and recording</h2>
+          <p>The switcher encodes the livestream and records the program feed. A dedicated video encoder/decoder supports IP video workflows when the show needs them.</p>
+        </section>
+        <section aria-labelledby="graphics-heading">
+          <h2 id="graphics-heading">Live graphics and playback</h2>
+          <p>I cue PowerPoint decks, play videos, and run live graphics while directing the show and switching between sources.</p>
+        </section>
+        <section aria-labelledby="signal-heading">
+          <h2 id="signal-heading">Signal routing and monitoring</h2>
+          <p>A portable multiview monitor keeps inputs in view. SDI and HDMI conversion tools let me route, monitor, and troubleshoot video feeds on site.</p>
+        </section>
+      </div>
+
+      <section class="page-shell broadcast-contact" aria-labelledby="booking-heading">
+        <h2 id="booking-heading">Tell me about your event</h2>
+        <p>Send your date, venue, and whether you need a livestream, a recording, or both.</p>
+        <a class="button button--primary" href="mailto:hakeem@keemthedesigner.xyz?subject=Broadcasting%20inquiry">Email Hakeem</a>
+      </section>
+    </main>
+  </body>
+</html>
