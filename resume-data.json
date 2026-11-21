@@ -1,0 +1,237 @@
+{
+  "name": "Hakeem Kushimo",
+  "headline": "AV Technician / Video Specialist / Graphics Operator",
+  "location": "Providence, RI / Northeast",
+  "contact": {
+    "phone": "401-854-6467",
+    "email": "hakeem@keemthedesigner.xyz",
+    "domain": "keemthedesigner.xyz",
+    "linkedin": "https://www.linkedin.com/in/hakeem-kushimo-b69b30178/"
+  },
+  "availability": "Freelance, corporate, medical, convention, and hybrid events",
+  "summary": "Freelance AV technician and specialized graphics operator focused on corporate, medical, and hybrid events. Experienced in complex video signal flow, presentation management, and real-time troubleshooting for high-stakes conventions. Proven record executing multi-screen content delivery and live switching for large-scale sessions.",
+  "expertise": [
+    "Graphic Design",
+    "PlaybackPro",
+    "Keynote",
+    "PowerPoint",
+    "Osee GoStream Duet",
+    "Roland V-Series",
+    "Blackmagic ATEM",
+    "SDI/HDMI Flow",
+    "vMix / OBS",
+    "Zoom / Teams",
+    "Aspect Ratios"
+  ],
+  "showKit": [
+    "Multi-input HD video switcher with integrated livestream encoding and recording",
+    "Dual 4K PTZ camera system with remote control and optical zoom",
+    "Dedicated video encoder/decoder for IP video workflows",
+    "Portable multiview monitor and SDI/HDMI signal conversion tools",
+    "Live presentation direction, video switching, and graphics operation",
+    "PowerPoint and video playback management",
+    "Multi-camera production, livestreaming, and event recording",
+    "Video signal routing, monitoring, and troubleshooting"
+  ],
+  "experience": [
+    {
+      "role": "Freelance AV Technician / Video Specialist",
+      "company": "Independent",
+      "region": "Boston & Providence Region",
+      "period": "2022 - Present",
+      "highlights": [
+        "Master-level operation of PlaybackPro, Keynote, and PowerPoint to keep media delivery seamless and presentations stable.",
+        "Operate Osee GoStream Duet, Roland, and Blackmagic switchers while managing mixed SDI/HDMI inputs for live camera and graphics integration.",
+        "Provide white-glove presenter support, including slide formatting, laptop troubleshooting, and multi-display confidence monitoring.",
+        "Architect and manage hybrid workflows using vMix and OBS to synchronize in-person and remote participation.",
+        "Serve as technical lead for breakout rooms and ballrooms from initial setup through live show execution."
+      ]
+    }
+  ],
+  "selectedShows": [
+    {
+      "name": "American Physical Therapy Association - Combined Sections Meeting (APTA CSM)",
+      "dates": "Feb 8 - Feb 19, 2024",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Graphics Operator / AV Tech",
+      "type": "Medical"
+    },
+    {
+      "name": "American Society of Cataract and Refractive Surgery (ASCRS) Annual Meeting",
+      "dates": "Mar 27 - Apr 11, 2024",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Graphics Operator / Video Engineer",
+      "type": "Medical"
+    },
+    {
+      "name": "NAREIT REITweek Investor Conference",
+      "dates": "Jun 1 - Jun 8, 2024",
+      "venue": "New York Hilton Midtown - New York, NY",
+      "company": "Freeman",
+      "role": "AV Technician / Video Support",
+      "type": "Corporate"
+    },
+    {
+      "name": "Cystic Fibrosis Foundation Annual Conference",
+      "dates": "Sep 22 - Sep 29, 2024",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "LASSO",
+      "role": "AV Technician / Breakout Support",
+      "type": "Medical"
+    },
+    {
+      "name": "International Association of Chiefs of Police (IACP) Annual Conference",
+      "dates": "Oct 14 - Oct 24, 2024",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "LASSO",
+      "role": "Video / AV Support Technician",
+      "type": "Association"
+    },
+    {
+      "name": "National Association of Realtors - NAR NXT",
+      "dates": "Nov 2 - Nov 13, 2024",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Graphics Operator",
+      "type": "Corporate"
+    },
+    {
+      "name": "AORN Global Surgical Conference & Expo",
+      "dates": "Apr 1 - Apr 12, 2025",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Engineer / AV Technician",
+      "type": "Medical"
+    },
+    {
+      "name": "International Society for Heart & Lung Transplantation (ISHLT)",
+      "dates": "Apr 23 - May 1, 2025",
+      "venue": "Hynes Convention Center - Boston, MA",
+      "company": "Freeman",
+      "role": "Video / Hybrid Event Technician",
+      "type": "Medical"
+    },
+    {
+      "name": "Splunk .conf (Sparks Intercompany)",
+      "dates": "Sep 1 - Sep 12, 2025",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Graphics Operator / AV Tech",
+      "type": "Tech"
+    },
+    {
+      "name": "Biotech Week Boston",
+      "dates": "Sep 12 - Sep 19, 2025",
+      "venue": "Hynes Convention Center - Boston, MA",
+      "company": "LASSO",
+      "role": "AV Technician",
+      "type": "Medical"
+    },
+    {
+      "name": "American Academy of Optometry (Alcon Sponsored Event)",
+      "dates": "Oct 4 - Oct 12, 2025",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Engineer / Graphics Operator",
+      "type": "Medical"
+    },
+    {
+      "name": "American Society of Human Genetics (ASHG) Annual Meeting",
+      "dates": "Oct 8 - Oct 20, 2025",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Graphics Operator",
+      "type": "Medical"
+    },
+    {
+      "name": "AIChE Annual Meeting (American Institute of Chemical Engineers)",
+      "dates": "Oct 29 - Nov 7, 2025",
+      "venue": "Hynes Convention Center - Boston, MA",
+      "company": "Freeman",
+      "role": "Video / AV Technician",
+      "type": "Association"
+    },
+    {
+      "name": "SLAS International Conference & Exhibition",
+      "dates": "Feb 4 - Feb 13, 2026",
+      "venue": "Boston Convention & Exhibition Center - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Engineer / AV Technician",
+      "type": "Tech"
+    },
+    {
+      "name": "American Heart Association - Epidemiology & Prevention Scientific Sessions",
+      "dates": "Mar 14 - Mar 21, 2026",
+      "venue": "Sheraton Boston - Boston, MA",
+      "company": "Freeman",
+      "role": "Hybrid Event / AV Technician",
+      "type": "Medical"
+    },
+    {
+      "name": "SME RAPID + TCT",
+      "dates": "Apr 9 - Apr 17, 2026",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Engineer / Technical Support",
+      "type": "Tech"
+    },
+    {
+      "name": "Pediatric Academic Societies (PAS) Meeting",
+      "dates": "Apr 21 - Apr 28, 2026",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "AV Technician / Breakout Support",
+      "type": "Medical"
+    },
+    {
+      "name": "OSAIC NXT 2026",
+      "dates": "Apr 26 - May 1, 2026",
+      "venue": "Boston Marriott Copley Place - Boston, MA",
+      "company": "MayCo Audio Visual Specialists",
+      "role": "Video Technician",
+      "type": "Corporate"
+    },
+    {
+      "name": "IBM Think 2026",
+      "dates": "Apr 28 - May 5,2026",
+      "venue": "Boston Convention & Exhibition Center - Boston, MA",
+      "company": "WS Solutions",
+      "role": "Video Engineer / Breakout Support",
+      "type": "Tech"
+    },
+    {
+      "name": "American Society of Gene & Cell Therapy (ASGCT)",
+      "dates": "May 10 - May 15,  2026",
+      "venue": "Boston Convention & Exhibition Center - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Graphics Operator / Video Engineer",
+      "type": "Medical"
+    },
+    {
+      "name": "Society for Vascular Surgery - Vascular Annual Meeting",
+      "dates": "Jun 8 - Jun 12, 2026",
+      "venue": "Hynes Convention Center - Boston, MA",
+      "company": "Freeman",
+      "role": "Video Engineer / AV Technician",
+      "type": "Medical"
+    },
+    {
+      "name": "NACDS Total Store Expo",
+      "dates": "Aug 14, 15 & 17, 2026",
+      "venue": "Thomas M. Menino Convention & Exhibition Center (BCEC) - Boston, MA",
+      "company": "Freeman",
+      "role": "AV Technician",
+      "type": "Corporate"
+    },
+    {
+      "name": "American Society for Surgery of the Hand (ASSH) Annual Meeting",
+      "dates": "Sep 15 - Sep 19, 2026",
+      "venue": "Hynes Convention Center - Boston, MA",
+      "company": "Freeman",
+      "role": "FLT",
+      "type": "Medical"
+    }
+  ]
+}

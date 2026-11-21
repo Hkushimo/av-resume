@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Data Editor</title>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <main class="editor-shell">
+    <header class="editor-header">
+      <div>
+        <p class="eyebrow">Local editor</p>
+        <h1>Resume data</h1>
+        <p class="intro">Open, edit, and save <code>resume-data.json</code> without touching the website code.</p>
+      </div>
+      <div class="actions">
+        <button type="button" id="openFile">Open JSON</button>
+        <button type="button" id="saveFile" class="primary">Save JSON</button>
+        <button type="button" id="downloadFile">Download copy</button>
+      </div>
+      <input id="fileInput" type="file" accept="application/json,.json" hidden>
+    </header>
+
+    <p id="status" class="status" role="status">Open <code>resume-data.json</code> to begin.</p>
+
+    <form id="editorForm" class="editor-form">
+      <section class="panel">
+        <div class="section-title">
+          <p class="eyebrow">Profile</p>
+          <h2>Main details</h2>
+        </div>
+        <div class="field-grid">
+          <label>
+            Name
+            <input name="name" type="text">
+          </label>
+          <label>
+            Title
+            <input name="headline" type="text">
+          </label>
+          <label>
+            Location
+            <input name="location" type="text">
+          </label>
+          <label>
+            Email
+            <input name="email" type="email">
+          </label>
+          <label>
+            Phone
+            <input name="phone" type="tel">
+          </label>
+          <label>
+            LinkedIn
+            <input name="linkedin" type="url">
+          </label>
+        </div>
+        <label>
+          Summary
+          <textarea name="summary" rows="5"></textarea>
+        </label>
+      </section>
+
+      <section class="panel two-column">
+        <div>
+          <div class="section-title">
+            <p class="eyebrow">Skills</p>
+            <h2>Expertise</h2>
+          </div>
+          <label>
+            One skill per line
+            <textarea name="expertise" rows="12"></textarea>
+          </label>
+        </div>
+        <div>
+          <div class="section-title">
+            <p class="eyebrow">Gear</p>
+            <h2>Show kit</h2>
+          </div>
+          <label>
+            One item per line
+            <textarea name="showKit" rows="12"></textarea>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-title">
+          <p class="eyebrow">Experience</p>
+          <h2>Freelance role</h2>
+        </div>
+        <div class="field-grid">
+          <label>
+            Role
+            <input name="experienceRole" type="text">
+          </label>
+          <label>
+            Company
+            <input name="experienceCompany" type="text">
+          </label>
+          <label>
+            Region
+            <input name="experienceRegion" type="text">
+          </label>
+          <label>
+            Period
+            <input name="experiencePeriod" type="text">
+          </label>
+        </div>
+        <label>
+          Bullets, one per line
+          <textarea name="experienceHighlights" rows="8"></textarea>
+        </label>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading-row">
+          <div class="section-title">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Selected shows</h2>
+          </div>
+          <button type="button" id="addShow">Add show</button>
+        </div>
+        <div id="showsList" class="shows-list"></div>
+      </section>
+    </form>
+  </main>
+
+  <template id="showTemplate">
+    <article class="show-editor">
+      <div class="show-editor__top">
+        <strong class="show-index"></strong>
+        <div class="mini-actions">
+          <button type="button" data-action="up">Up</button>
+          <button type="button" data-action="down">Down</button>
+          <button type="button" data-action="delete" class="danger">Delete</button>
+        </div>
+      </div>
+      <div class="field-grid">
+        <label>
+          Event
+          <input data-key="name" type="text">
+        </label>
+        <label>
+          Type
+          <select data-key="type">
+            <option>Medical</option>
+            <option>Corporate</option>
+            <option>Association</option>
+            <option>Tech</option>
+          </select>
+        </label>
+        <label>
+          Dates
+          <input data-key="dates" type="text">
+        </label>
+        <label>
+          Company
+          <input data-key="company" type="text">
+        </label>
+        <label class="wide">
+          Venue
+          <input data-key="venue" type="text">
+        </label>
+        <label class="wide">
+          Role
+          <input data-key="role" type="text">
+        </label>
+      </div>
+    </article>
+  </template>
+
+  <script src="editor.js" defer></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"16e823ff0c134e6d900ee20c07c8df96","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
